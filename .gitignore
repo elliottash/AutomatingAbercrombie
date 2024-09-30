@@ -1,0 +1,137 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtualenv
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the binary.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# pytest
+.cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.*
+.venv
+.venv.*
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Thumbnails
+.thumbnail_cache/
+
+# General backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# Files for specific operating systems
+*.log
+*.lock
+*.idx
+*.pid
+*.seed
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.exe
+*.dll
+*.com
+*.bat
+*.cmd
+*.msi
+*.msm
+*.msp
+
