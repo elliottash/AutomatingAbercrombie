@@ -44,31 +44,31 @@ Follow the steps below to generate the training data from the case files dataset
 1. **Download the Dataset**: 
 - Download the **Trademark Case Files Dataset** from [USPTO](https://www.uspto.gov/ip-policy/economic-research/research-datasets/trademark-case-files-dataset).
 
-2. **Data Segmentation (2012-2019)**: \\ 
+2. **Data Segmentation (2012-2019)**:    
 Run the following script to extract data from the 2012-2019 timeframe:
 ```bash
 python data-creation/data_segmentation_2012_2019.py
 ```
 
-3. **Data Preparation**: \\
+3. **Data Preparation**:      
 Prepare the extracted case files with basic preprocessing and features required from case files:
 ```bash
 python data-creation/data_prep.py
 ```
 
-4. **Add WordNet Indicator**: \\
+4. **Add WordNet Indicator**:    
 Extract marks in the dataset that are present in WordNet by running:
 ```bash
 python data-creation/add_wordnet_indicator.py
 ```
 
-5. **Extract Pseudo Marks**: \\
+5. **Extract Pseudo Marks**:     
 Extract pseudo marks (if available) from the data using:
 ```bash
 python data-creation/statement_proc_pseudo_mark.py
 ```
 
-6. **Append English Translation**: \\
+6. **Append English Translation**:    
 Translate foreign language marks into English
 ```bash
 python data-creation/append_translation.py
