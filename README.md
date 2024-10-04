@@ -13,14 +13,14 @@ code/
 │   ├── prob-vs-publication-delay/
 │   ├── robustness-checks/
 │   └── xai/
-└── main-paper/
-    ├── data-creation/
-    ├── distilbert/
-    ├── roberta/
-    └── xgboost/
+├── main-paper/
+│   ├── data-creation/
+│   ├── distilbert/
+│   ├── roberta/
+│   └── xgboost/
+└── requirements.txt
 
 README.md
-requirements.txt
 ``` 
 
 ## Project Replication Guide
