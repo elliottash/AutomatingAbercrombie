@@ -22,7 +22,6 @@ code/
 README.md
 requirements.txt
 
-
 # Project Replication Guide
 
 ## 1. Install Requirements
