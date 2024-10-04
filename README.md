@@ -4,7 +4,7 @@ Replication code for "Automating Abercrobie: Machine-learning Trademark Distinct
 [Zenodo Link](https://doi.org/10.5281/zenodo.13846292) for downloading datasets and trained models. 
 
 ### Directory Structure 
-
+```bash
 code/
 ├── appendix/
 │   ├── bootstrap/
@@ -21,6 +21,7 @@ code/
 
 README.md
 requirements.txt
+``` 
 
 # Project Replication Guide
 
